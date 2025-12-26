@@ -38,7 +38,7 @@ Follow these steps to run the project locally.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/hemantlunia/psiBorg_assignment_react_store.git>
 
 ```base
 npm install
