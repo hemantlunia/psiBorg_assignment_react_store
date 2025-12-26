@@ -3,6 +3,9 @@
 A modern React application built with **React Router**, **React Query**, and **Tailwind CSS**, featuring authentication, protected routes, error boundaries, pagination...
 
 
+> ⚠️ Demo Projects thats why i push .ENV file.
+
+
 ---
 
 ##  Features
@@ -47,4 +50,8 @@ npm install
 npm run dev
 
 
+## 🌐 Live 
 
+deployed on **Netlify** and available here:
+
+🔗 **Live URL:** https://playful-clafoutis-5aca89.netlify.app/
