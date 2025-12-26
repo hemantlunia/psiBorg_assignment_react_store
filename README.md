@@ -1,6 +1,6 @@
 # React youStore App
 
-A modern React application built with **React Router**, **React Query**, and **Tailwind CSS**, featuring authentication, protected routes, error boundaries, pagination...
+React application built with **React Router**, **React Query**, and **Tailwind CSS**, featuring authentication, protected routes, error boundaries, pagination...
 
 
 > ⚠️ Demo Projects thats why i push .ENV file.
