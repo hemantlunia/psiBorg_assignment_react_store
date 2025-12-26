@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+.bg-purple-mesh {
+  background:
+    radial-gradient(at top left, #a855f7 0%, transparent 50%),
+    radial-gradient(at top right, #6366f1 0%, transparent 50%),
+    radial-gradient(at bottom left, #ec4899 0%, transparent 50%),
+    radial-gradient(at bottom right, #3b82f6 0%, transparent 50%),
+    #020617;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
