@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import React, { useEffect, useMemo, useState } from "react";
 import { fetchProducts } from "../api/productApi";
 import Loader from "../components/Loader";
-import Productcard from "../components/Productcard";
+import Productcard from "../components/Productcard.jsx";
 import { useNavigate } from "react-router";
 
 const ITEMS_PER_PAGE = 8;
