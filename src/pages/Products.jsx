@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import React, { useEffect, useMemo, useState } from "react";
 import { fetchProducts } from "../api/productApi";
 import Loader from "../components/Loader";
-import ProductCard from "../components/Productcard";
+import Productcard from "../components/Productcard";
 import { useNavigate } from "react-router";
 
 const ITEMS_PER_PAGE = 8;
@@ -77,7 +77,7 @@ function Products() {
         <>
           <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {paginatedProducts.map((p) => (
-              <ProductCard key={p.id} product={p} />
+              <Productcard key={p.id} product={p} />
             ))}
           </div>
 

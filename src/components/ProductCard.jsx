@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router";
 
-function ProductCard({ product }) {
+function Productcard({ product }) {
   const rupeeSymbol = import.meta.env.VITE_RUPEE_SYMBOL;
   const navigate = useNavigate();
 
@@ -57,4 +57,4 @@ function ProductCard({ product }) {
   );
 }
 
-export default ProductCard;
+export default Productcard;
