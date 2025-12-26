@@ -4,6 +4,7 @@ import { fetchProducts } from "../api/productApi";
 import Loader from "../components/Loader";
 import Productcard from "../components/Productcard.jsx";
 import { useNavigate } from "react-router";
+import ProductCards from "../components/ProductCards.jsx";
 
 const ITEMS_PER_PAGE = 8;
 
@@ -77,7 +78,7 @@ function Products() {
         <>
           <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {paginatedProducts.map((p) => (
-              <Productcard key={p.id} product={p} />
+              <ProductCards key={p.id} product={p} />
             ))}
           </div>
 
